@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function Header() {
-  return <h1>Header Component</h1>;
+  return (
+    <header className="header">
+      <img src="../images/troll-face.png" />
+      <h2>Header Component</h2>
+      <h4>React Course - Project</h4>
+    </header>
+  );
 }
